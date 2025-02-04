@@ -1,0 +1,29 @@
+.header_menu {}
+
+.header_menu .button_right_arrow {
+  width: 32px;
+  height: 32px;
+  background-color: black;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_menu .menu_wrapper .list_menu {
+  display: flex;
+}
+
+.header_menu .menu_wrapper .list_menu .list_menu_item {
+  margin-right: 26px;
+}
+
+.header_menu .menu_wrapper .list_menu .list_menu_item:last-child {
+  margin-right: 0;
+}
