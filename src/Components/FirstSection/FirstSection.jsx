@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './FristSection.css'
-import { IconArrowDropDown, IconArrowRight, IconBtn, IconRaditoRed } from '../Icon'
+import { IconArrowDropDown, IconArrowRight, IconBtn, IconLogo, IconMenu, IconRaditoRed } from '../Icon'
 import { translations } from '../../language';
 import englandFlag from '../../assets/images/english.png'
 import VNFlag from '../../assets/images/vietnam.png'
@@ -8,21 +8,28 @@ import imgDetailContent from '../../assets/images/yellow.png'
 import imgCode from '../../assets/images/code.png'
 import imgMan from '../../assets/images/man.png'
 import imgTamGiac from '../../assets/images/icon-park_caution.png'
-const FirstSection = ({ language, setLanguage }) => {
+const FirstSection = ({ language, setLanguage, isActiveMenuMobile, setIsActiveMenuMobile }) => {
   const [isOpenDrop, setIsOpenDrop] = useState(false);
   const handleChangeLanguage = (e) => {
     setLanguage(e);
   };
   return (
     <>
-      <div className='containers'>
+      <div>
         <div className='first_section'>
           <div className='left_side'>
             <div className='header_menu'>
-              <div className='button_right_arrow'
-                style={{ marginRight: 26 }}
+              <div
+                style={{ display: 'flex', alignItems: 'center' }}
               >
-                <IconArrowRight />
+                <div className='button_right_arrow'
+                  style={{ marginRight: 10 }}
+                >
+                  <IconArrowRight />
+                </div>
+                <div className='logo_icon' >
+                  <IconLogo />
+                </div>
               </div>
               <div className='menu_wrapper'>
                 <ul className="list_menu">
@@ -66,7 +73,9 @@ const FirstSection = ({ language, setLanguage }) => {
                   </div>
                 </ul>
               </div>
-
+              <div className='logo_icon ease_in_out' onClick={() => setIsActiveMenuMobile(true)}>
+                <IconMenu />
+              </div>
             </div>
             <div className='main_content'>
               <h1> {translations[language].improveSkills} <span id='icon_close_code'> {'</>'}</span> {translations[language].studyWithCoding} </h1>
@@ -97,9 +106,12 @@ const FirstSection = ({ language, setLanguage }) => {
             </div>
             <div className='name_right_wrapper'>
               <IconRaditoRed />
-              <span> Thành Vinh (FE) </span>
+              <span> Thành Vinh (FE)  </span>
+
             </div>
           </div>
+
+
         </div>
       </div>
     </>
