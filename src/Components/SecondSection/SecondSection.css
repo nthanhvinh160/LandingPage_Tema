@@ -1,0 +1,14 @@
+.second_section {}
+.second_section .list_img_second_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 84px 0;
+}
+.second_section .list_img_second_section_item{
+    margin-right: 154px;
+}
+.second_section .list_img_second_section_item img{
+
+}
