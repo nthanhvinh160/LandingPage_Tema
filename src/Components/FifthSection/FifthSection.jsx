@@ -54,7 +54,9 @@ const FifthSection = ({ language }) => {
                 <span className='tutor_title'> {translations[language].tutors}</span>
                 <span className='tutor_name'> Anthoney Mills </span>
               </div>
+              <div className='personRed_thumb'>
               <img src={imgMan} alt='personRed' />
+              </div>
             </div>
           </div>
         </div>

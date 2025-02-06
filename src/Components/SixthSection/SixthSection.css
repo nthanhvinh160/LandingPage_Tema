@@ -1,0 +1,123 @@
+.sixth_section{
+    padding: 50px 5%;
+}
+.sixth_section .title_wrapper{
+    margin-bottom: 80px;
+}
+.sixth_section .title_wrapper h5{
+
+
+font-size: 48px;
+font-weight: 700;
+line-height: 57.6px;
+text-align: center;
+
+
+}
+.sixth_section .title_wrapper p{
+    
+    font-size: 22px;
+    font-weight: 250;
+    line-height: 26.4px;
+    text-align: center;
+    margin-top: 35px;
+}
+.sixth_section_grid{
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    align-items: end;
+    justify-content: center;
+}
+.sixth_section_grid .sixth_section_grid_item{
+    /* display: flex;
+    flex: 1; */
+    width: 33.33%;
+}
+.sixth_section_grid .sixth_section_grid_item .sixth_section_grid_item_card.new{
+    background-color: #010101;
+    color: #fff;
+}
+.sixth_section_grid .sixth_section_grid_item .sixth_section_grid_item_card{
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    padding: 48px;
+    /* flex-grow: 1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sixth_section_grid_item_card .item_title{
+    
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.25px;
+    text-align: center;
+
+}
+.sixth_section_grid_item_card .item_price_wrapper{
+    width: fit-content;
+    position: relative;
+    margin-top: 38px;
+    margin-bottom: 27px;
+}
+.sixth_section_grid_item_card .item_price_wrapper sup{
+    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    vertical-align: super;
+    position: absolute;
+    left: -12px;
+    top: 6px;
+}
+.sixth_section_grid_item_card .item_price_wrapper .item_price{
+    
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+
+}
+.sixth_section_grid_item_card .sixth_section_list{
+    margin-bottom: 80px;
+}
+.sixth_section_grid_item_card .sixth_section_list .sixth_section_list_item{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.btn_buy:hover{
+    cursor: pointer;
+}
+
+.btn_buy{
+    padding: 15px;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn_buy.new{
+    background-color: #DDF247;
+}
+.btn_buy.new span{
+    color: #000;
+}
+.btn_buy span{ 
+font-size: 22px;
+font-weight: 500;
+line-height: 26.4px;
+text-align: center;
+color: #DDF247;
+
+}
+
+.icon_new_wrapper{
+    width: fit-content;
+    position: absolute;
+    left: -200%;
+}

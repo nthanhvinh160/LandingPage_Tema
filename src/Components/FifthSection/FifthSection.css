@@ -11,7 +11,7 @@
 .fifth_section .fifth_section_left .fifth_section_left_content {}
 
 .fifth_section .fifth_section_left .fifth_section_left_content h5 {
-  font-family: Aeonik;
+  
   font-size: 48px;
   font-weight: 700;
   line-height: 57.6px;
@@ -41,7 +41,7 @@
 }
 
 .fifth_section_info_wrapper .title_info {
-  font-family: Aeonik;
+  
   font-size: 34px;
   font-weight: 700;
   line-height: 40.8px;
@@ -82,15 +82,26 @@
 .fifth_section .fifth_section_right .fifth_section_right_wrapper .black_thumb .man_thumb {
   background-color: #DDF247;
   border-radius: 13px;
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.personRed_thumb {
+  vertical-align: bottom;
+  display: flex;
+  justify-content: end;
+  width: 100%;
 }
 
 .fifth_section .fifth_section_right .fifth_section_right_wrapper .black_thumb .man_thumb .thumb_content {
   padding: 26px;
+    display: flex;
+    flex-direction: column;
 }
 
 .fifth_section .fifth_section_right .fifth_section_right_wrapper .black_thumb .man_thumb .thumb_content .tutor_title {
-  font-family: Aeonik;
+  
   font-size: 34px;
   font-weight: 700;
   line-height: 40.8px;
@@ -101,7 +112,7 @@
 }
 
 .fifth_section .fifth_section_right .fifth_section_right_wrapper .black_thumb .man_thumb .thumb_content .tutor_name {
-  font-family: Aeonik;
+  
   font-size: 48px;
   font-weight: 700;
   line-height: 57.6px;
@@ -113,6 +124,7 @@
 }
 
 .fifth_section .fifth_section_right .fifth_section_right_wrapper .black_thumb .man_thumb img {
-  scale: 0.8;
-
+  border-radius: 13px;
+  width: 60%;
+  object-fit: contain;
 }

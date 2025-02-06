@@ -21,10 +21,14 @@ export const translations = {
     showcase: "Showcase",
     showcaseContent: "Get inspired by the incredible websites built by members of the community",
     university: "University",
-    universityContent: 'Browse hundreds of in-depth videos, courses, and guides to get up and running fast'
+    universityContent: 'Browse hundreds of in-depth videos, courses, and guides to get up and running fast',
+    choosePackage: "Choose your package",
+    providePackages: "We provide various types of packages just for you",
+    upgradeSkills: "Start upgrading your skills free for this month",
+    buildSite: "Build your site for free and take as long as you need",
   },
   vi: {
-    tutors: "TUTORS",
+    tutors: "GIẢNG VIÊN",
     tutorials: "Hướng dẫn",
     caseStudies: "Nghiên cứu điển hình",
     resources: "Tài nguyên",
@@ -43,8 +47,13 @@ export const translations = {
     goLive: "Triển khai trên mạng lưu trữ nhanh, đáng tin cậy và không rắc rối, có thể mở rộng theo doanh nghiệp của bạn chỉ với một cú nhấp chuột và đi cùng mã!",
     tryItYourself: "Thử ngay",
     showcase: "Trưng bày",
-    showcaseContent: "Get inspired by the incredible websites built by members of the community",
     university: "Đại học",
-    universityContent: 'Browse hundreds of in-depth videos, courses, and guides to get up and running fast'
+    showcaseContent: "Lấy cảm hứng từ những trang web tuyệt vời được xây dựng bởi các thành viên trong cộng đồng",
+    universityContent: "Duyệt qua hàng trăm video chuyên sâu, khóa học và hướng dẫn để bắt đầu nhanh chóng",
+    choosePackage: "Chọn gói của bạn",
+    providePackages: "Chúng tôi cung cấp nhiều loại gói khác nhau dành riêng cho bạn",
+
+    upgradeSkills: "Bắt đầu nâng cấp kỹ năng của bạn miễn phí trong tháng này",
+    buildSite: "Xây dựng trang web của bạn miễn phí và dành bao lâu tùy thích",
   },
 };
