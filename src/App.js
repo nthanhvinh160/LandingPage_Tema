@@ -4,6 +4,8 @@ import FirstSection from './Components/FirstSection/FirstSection';
 import MenuForMoible from './Components/MenuForMoible';
 import SecondSection from './Components/SecondSection/SecondSection';
 import ThirdSection from './Components/ThirdSection/ThirdSection';
+import FourthSection from './Components/FourthSection/FourthSection';
+import FifthSection from './Components/FifthSection/FifthSection';
 
 function App() {
   const [language, setLanguage] = useState("en");
@@ -13,8 +15,10 @@ function App() {
     <div className="App containers">
       <MenuForMoible language={language} setIsActiveMenuMobile={setIsActiveMenuMobile} isActiveMenuMobile={isActiveMenuMobile} />
       <FirstSection setLanguage={setLanguage} language={language} setIsActiveMenuMobile={setIsActiveMenuMobile} isActiveMenuMobile={isActiveMenuMobile} />
-      <SecondSection language={language}/>
-      <ThirdSection language={language}/>
+      <SecondSection language={language} />
+      <ThirdSection language={language} />
+      <FourthSection language={language} />
+      <FifthSection language={language} />
     </div>
   );
 }

@@ -318,6 +318,26 @@
   margin-left: 17px;
 }
 
+.scollTop_fade_one:hover {
+  cursor: pointer;
+}
+
+.scollTop_fade_one {
+  background-color: #48484871;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 100%;
+  position: absolute;
+  display: none;
+  right: 20px;
+  top: 50%;
+}
+
+.scollTop_fade_two {
+  background-color: #797979e3;
+  width: 100%;
+  border-radius: 100%;
+}
 
 
 
@@ -377,6 +397,11 @@
   .first_section .right_side {
     width: 100%;
     height: 100vh;
+    position: relative;
+  }
+
+  .scollTop_fade_one {
+    display: block;
   }
 
   .logo_icon {
@@ -387,6 +412,7 @@
     display: none;
   }
 }
+
 
 @media (max-width: 767px) {
   .first_section .left_side .main_content h1 {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './FristSection.css'
-import { IconArrowDropDown, IconArrowRight, IconBtn, IconLogo, IconMenu, IconRaditoRed } from '../Icon'
+import { IconArrowDropDown, IconArrowRight, IconBackToTop, IconBtn, IconLogo, IconMenu, IconRaditoRed } from '../Icon'
 import { translations } from '../../language';
 import englandFlag from '../../assets/images/english.png'
 import VNFlag from '../../assets/images/vietnam.png'
@@ -13,10 +13,14 @@ const FirstSection = ({ language, setLanguage, isActiveMenuMobile, setIsActiveMe
   const handleChangeLanguage = (e) => {
     setLanguage(e);
   };
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <>
       <div>
         <div className='first_section'>
+
           <div className='left_side'>
             <div className='header_menu'>
               <div
@@ -95,6 +99,11 @@ const FirstSection = ({ language, setLanguage, isActiveMenuMobile, setIsActiveMe
           {/* Right Side Section 1st */}
 
           <div className='right_side'>
+            <div className='scollTop_fade_one' onClick={scrollToTop}>
+              <div className='scollTop_fade_two'>
+                <IconBackToTop />
+              </div>
+            </div>
             <div className='image_code_wrapper'>
               <img src={imgCode} />
             </div>

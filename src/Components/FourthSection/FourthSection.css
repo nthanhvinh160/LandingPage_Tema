@@ -1,0 +1,162 @@
+.fourth_section {
+  display: flex;
+  transition: all ease-in-out 0.3s;
+  padding: 50px 0;
+}
+
+.fourth_section .wrapper_btn {
+  display: flex;
+}
+
+.fourth_section .fourth_section_left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.fourth_section .fourth_section_left .fourth_section_left_wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.fourth_section .fourth_section_left .fourth_section_left_wrapper .code_black_thumb {}
+
+.fourth_section .fourth_section_left .fourth_section_left_wrapper .code_black_thumb img {
+  width: 100%;
+  object-fit: contain;
+
+}
+
+.fourth_section .fourth_section_left .fourth_section_left_wrapper .triangle_thumb {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(14%, -50%);
+}
+
+.fourth_section .fourth_section_left .fourth_section_left_wrapper .triangle_thumb img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.fourth_section .fourth_section_right {
+  display: flex;
+  align-items: center;
+}
+
+.fourth_section .fourth_section_right .fourth_section_left_content {
+  padding: 0 10%;
+}
+
+.fourth_section .fourth_section_right .fourth_section_left_content h5 {
+  font-family: Aeonik;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
+
+}
+
+.fourth_section .fourth_section_right .fourth_section_left_content p {
+  font-family: Aeonik;
+  font-size: 22px;
+  font-weight: 250;
+  line-height: 26.4px;
+  text-align: left;
+  margin-bottom: 48px;
+  margin-top: 35px;
+  width: 90%;
+}
+
+.fourth_section .btn_tryItFirst {
+  display: block;
+}
+
+.fourth_section .btn_tryItYourSelf {
+  display: none;
+}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1366px) {
+  .fourth_section .fourth_section_left .fourth_section_left_wrapper .code_black_thumb {
+    scale: 0.8
+  }
+
+  .fourth_section .fourth_section_left .fourth_section_left_wrapper .triangle_thumb {
+    position: absolute;
+    top: 50%;
+  }
+
+  .fourth_section .fourth_section_left .fourth_section_left_wrapper .triangle_thumb {
+    scale: 0.8
+  }
+
+}
+
+@media (max-width: 1250px) {}
+
+@media (max-width: 1120px) {
+  .fourth_section {
+    flex-wrap: wrap-reverse;
+  }
+
+  .fourth_section .btn_content {
+    color: #DDF247;
+    ;
+  }
+
+  .fourth_section .btn_tryItFirst {
+    display: none;
+  }
+
+
+  .fourth_section .btn_tryItYourSelf {
+    display: block;
+  }
+
+
+  .fourth_section .fourth_section_left {
+    width: 100%;
+  }
+
+  .fourth_section .fourth_section_right {
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .fourth_section .fourth_section_left .fourth_section_left_wrapper .triangle_thumb {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+  }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 960px) {}
+
+@media (max-width: 767px) {
+  .fourth_section .fourth_section_left .fourth_section_left_wrapper .code_black_thumb {
+    scale: 0.8
+  }
+
+  .fourth_section .fourth_section_left .fourth_section_left_wrapper .triangle_thumb {
+    position: absolute;
+    /* right: 4%; */
+
+  }
+
+  .fourth_section .fourth_section_left .fourth_section_left_wrapper .triangle_thumb {
+    scale: 0.8
+  }
+}
+
+@media (max-width: 650px) {}
+
+@media (max-width: 500px) {
+  .fourth_section .btn {
+    width: 100%;
+  }
+}

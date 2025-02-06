@@ -1,0 +1,118 @@
+.fifth_section {
+  display: flex;
+  transition: all ease-in-out 0.3s;
+  padding: 50px 50px;
+}
+
+.fifth_section .fifth_section_left {
+  width: 50%;
+}
+
+.fifth_section .fifth_section_left .fifth_section_left_content {}
+
+.fifth_section .fifth_section_left .fifth_section_left_content h5 {
+  font-family: Aeonik;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
+  margin-bottom: 90px;
+}
+
+.fifth_section .fifth_section_left .fifth_section_left_content .fifth_section_list {
+  width: 100%;
+  display: flex;
+}
+
+
+
+.fifth_section .fifth_section_left .fifth_section_left_content .fifth_section_list .cut {
+  border-right: solid 1px #E4E4E4;
+  padding: 10px 48px;
+}
+
+.fifth_section .fifth_section_left .fifth_section_left_content .fifth_section_list .cut:last-child {
+  border-right: unset;
+}
+
+.fifth_section_info_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.fifth_section_info_wrapper .title_info {
+  font-family: Aeonik;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40.8px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  margin-top: 61px;
+  margin-bottom: 19px;
+}
+
+.fifth_section_info_wrapper .detail_info {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+
+
+.fifth_section .fifth_section_right {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.fifth_section .fifth_section_right .fifth_section_right_wrapper {}
+
+.fifth_section .fifth_section_right .fifth_section_right_wrapper .black_thumb {
+  background-color: #000;
+  border-radius: 13px;
+  padding: 26px 22px;
+  padding-bottom: 0;
+  width: 390px;
+  height: 390px;
+}
+
+
+.fifth_section .fifth_section_right .fifth_section_right_wrapper .black_thumb .man_thumb {
+  background-color: #DDF247;
+  border-radius: 13px;
+  position: relative;
+}
+
+.fifth_section .fifth_section_right .fifth_section_right_wrapper .black_thumb .man_thumb .thumb_content {
+  padding: 26px;
+}
+
+.fifth_section .fifth_section_right .fifth_section_right_wrapper .black_thumb .man_thumb .thumb_content .tutor_title {
+  font-family: Aeonik;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40.8px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: #00000041;
+
+}
+
+.fifth_section .fifth_section_right .fifth_section_right_wrapper .black_thumb .man_thumb .thumb_content .tutor_name {
+  font-family: Aeonik;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
+  margin-top: 21px;
+  color: #00000017;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+}
+
+.fifth_section .fifth_section_right .fifth_section_right_wrapper .black_thumb .man_thumb img {
+  scale: 0.8;
+
+}
