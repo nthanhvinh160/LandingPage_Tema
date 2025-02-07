@@ -31,6 +31,9 @@ export const translations = {
     getInsights: "03. How to get insights from users?",
     developWithoutCode: "04. Can I develop my website without code?",
     getRunningFast: "Get up and running fast together",
+    itSoftware: "IT & SOFTWARE",
+    development: "DEVELOPMENT",
+    business: "BUSINESS",
   },
   vi: {
     tutors: "GIẢNG VIÊN",
@@ -64,5 +67,8 @@ export const translations = {
     getInsights: "03. Làm thế nào để thu thập ý kiến từ người dùng?",
     developWithoutCode: "04. Tôi có thể phát triển trang web của mình mà không cần mã không?",
     getRunningFast: "Bắt đầu và vận hành nhanh chóng cùng nhau",
+    itSoftware: "CNTT & PHẦN MỀM",
+    development: "PHÁT TRIỂN",
+    business: "KINH DOANH",
   },
 };

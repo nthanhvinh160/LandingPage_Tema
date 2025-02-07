@@ -57,7 +57,7 @@
 }
 
 .sixth_section_grid_item_card .item_title {
-
+    white-space: nowrap;
     font-size: 24px;
     font-weight: 400;
     line-height: 28.8px;

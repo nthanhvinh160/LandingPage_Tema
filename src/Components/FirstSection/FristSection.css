@@ -331,10 +331,11 @@
   width: fit-content;
   padding: 5px;
   border-radius: 100%;
-  position: absolute;
+  position: fixed;
   display: none;
   right: 20px;
   top: 50%;
+  z-index: 999;
 }
 
 .scollTop_fade_two {
@@ -428,6 +429,18 @@
 }
 
 @media (max-width: 500px) {
+  .first_section .right_side .name_right_wrapper svg {
+    width: 16px;
+  }
+
+  .first_section .right_side .name_right_wrapper svg {
+    width: 16px;
+  }
+
+  .first_section .right_side .name_right_wrapper {
+    padding: 10px 80px 10px 30px;
+  }
+
   .btn .btn_content {
     font-size: 17px;
   }

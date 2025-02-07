@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './FristSection.css'
 import { IconArrowDropDown, IconArrowRight, IconBackToTop, IconBtn, IconLogo, IconMenu, IconRaditoRed } from '../Icon'
 import { translations } from '../../language';
@@ -10,12 +10,27 @@ import imgMan from '../../assets/images/man.png'
 import imgTamGiac from '../../assets/images/icon-park_caution.png'
 const FirstSection = ({ language, setLanguage, isActiveMenuMobile, setIsActiveMenuMobile }) => {
   const [isOpenDrop, setIsOpenDrop] = useState(false);
+  const [showScrollToTop, setShowScrollToTop] = useState(false);
   const handleChangeLanguage = (e) => {
     setLanguage(e);
   };
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 350) {
+        setShowScrollToTop(true);
+      } else {
+        setShowScrollToTop(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup khi component unmount
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   return (
     <>
       <div>
@@ -99,11 +114,13 @@ const FirstSection = ({ language, setLanguage, isActiveMenuMobile, setIsActiveMe
           {/* Right Side Section 1st */}
 
           <div className='right_side'>
-            <div className='scollTop_fade_one' onClick={scrollToTop}>
-              <div className='scollTop_fade_two'>
-                <IconBackToTop />
+            {showScrollToTop && (
+              <div className='scollTop_fade_one' onClick={scrollToTop}>
+                <div className='scollTop_fade_two'>
+                  <IconBackToTop />
+                </div>
               </div>
-            </div>
+            )}
             <div className='image_code_wrapper'>
               <img src={imgCode} />
             </div>

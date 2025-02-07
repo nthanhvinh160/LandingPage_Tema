@@ -14,7 +14,7 @@ const SixthSection = ({ language }) => {
       <div className='sixth_section_grid'>
         <div className='sixth_section_grid_item'>
           <div className='sixth_section_grid_item_card'>
-            <span className='item_title'> {translations[language].university} </span>
+            <span className='item_title'> {translations[language].development} </span>
             <div className='item_price_wrapper'>
               <sup> $ </sup><span className='item_price'> 30 </span>
             </div>
@@ -29,7 +29,7 @@ const SixthSection = ({ language }) => {
         </div>
         <div className='sixth_section_grid_item'>
           <div className='sixth_section_grid_item_card new'>
-            <span className='item_title'> {translations[language].university} </span>
+            <span className='item_title'> {translations[language].itSoftware} </span>
 
 
             <div className='item_price_wrapper'>
@@ -52,7 +52,7 @@ const SixthSection = ({ language }) => {
         </div>
         <div className='sixth_section_grid_item'>
           <div className='sixth_section_grid_item_card'>
-            <span className='item_title'> {translations[language].university} </span>
+            <span className='item_title'> {translations[language].business} </span>
             <div className='item_price_wrapper'>
               <sup> $ </sup><span className='item_price'> 30 </span>
             </div>
