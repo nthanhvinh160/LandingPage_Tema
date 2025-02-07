@@ -25,7 +25,7 @@ const FifthSection = ({ language }) => {
     <div className='fifth_section'>
       <div className='fifth_section_left'>
         <div className='fifth_section_left_content'>
-          <h5> {translations[language].webLanguage} </h5>
+          <h5> {translations[language].getRunningFast} </h5>
           <div className='fifth_section_list'>
             {sliderData.map((item, index) => (
               <div
@@ -55,7 +55,7 @@ const FifthSection = ({ language }) => {
                 <span className='tutor_name'> Anthoney Mills </span>
               </div>
               <div className='personRed_thumb'>
-              <img src={imgMan} alt='personRed' />
+                <img src={imgMan} alt='personRed' />
               </div>
             </div>
           </div>

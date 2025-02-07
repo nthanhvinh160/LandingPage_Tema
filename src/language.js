@@ -26,6 +26,11 @@ export const translations = {
     providePackages: "We provide various types of packages just for you",
     upgradeSkills: "Start upgrading your skills free for this month",
     buildSite: "Build your site for free and take as long as you need",
+    findInfo: "01. Can I find the right information faster?",
+    shareDemos: "02. How to share feature demos and ideas?",
+    getInsights: "03. How to get insights from users?",
+    developWithoutCode: "04. Can I develop my website without code?",
+    getRunningFast: "Get up and running fast together",
   },
   vi: {
     tutors: "GIẢNG VIÊN",
@@ -52,8 +57,12 @@ export const translations = {
     universityContent: "Duyệt qua hàng trăm video chuyên sâu, khóa học và hướng dẫn để bắt đầu nhanh chóng",
     choosePackage: "Chọn gói của bạn",
     providePackages: "Chúng tôi cung cấp nhiều loại gói khác nhau dành riêng cho bạn",
-
     upgradeSkills: "Bắt đầu nâng cấp kỹ năng của bạn miễn phí trong tháng này",
     buildSite: "Xây dựng trang web của bạn miễn phí và dành bao lâu tùy thích",
+    findInfo: "01. Tôi có thể tìm thấy thông tin chính xác nhanh hơn không?",
+    shareDemos: "02. Làm thế nào để chia sẻ bản demo tính năng và ý tưởng?",
+    getInsights: "03. Làm thế nào để thu thập ý kiến từ người dùng?",
+    developWithoutCode: "04. Tôi có thể phát triển trang web của mình mà không cần mã không?",
+    getRunningFast: "Bắt đầu và vận hành nhanh chóng cùng nhau",
   },
 };

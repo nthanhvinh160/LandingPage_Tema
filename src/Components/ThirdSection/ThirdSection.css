@@ -105,7 +105,7 @@
 
 
 .third_section_right .slider .card_info .title_info {
-  
+
   font-size: 34px;
   font-weight: 700;
   line-height: 40.8px;
@@ -205,4 +205,28 @@
 
 @media (max-width: 650px) {}
 
-@media (max-width: 500px) {}
+@media (max-width: 520px) {
+  .third_section .third_section_left .third_section_left_content h5 {
+
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40.8px;
+    letter-spacing: 0.25px;
+
+
+  }
+
+  .third_section .third_section_left .third_section_left_content p {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 22px;
+    letter-spacing: 0.10000000149011612px;
+  }
+
+  .third_section_right .slider .card_info .title_info {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40.8px;
+    letter-spacing: 0.25px;
+  }
+}

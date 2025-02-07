@@ -176,35 +176,49 @@ export const IconBtnSecond = ({ size = 40, color = '#DDF247' }) => {
     </svg>
   )
 }
-export const IconNew = ({ size = 40, color = '#DDF247' }) => {
+export const IconMinimize = ({ size = 40, color = '#DDF247' }) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="42" height="39" viewBox="0 0 42 39" fill="none">
-    <path d="M6.89411 33.5827C3.70558 28.1965 2.19492 20.7227 1.88381 20.0014C1.5727 19.2801 10.0894 28.1018 10.8369 29.8344C11.5844 31.5669 8.05763 19.0987 6.05889 14.7869" stroke="#FF6868" stroke-width="2" stroke-linecap="round"/>
-    <path d="M32.0178 4.06503C32.4169 8.79932 31.8373 20.4287 31.3463 19.8359C30.8553 19.2432 26.2616 6.75389 26.3065 7.53792C26.3515 8.32195 26.1647 19.9047 26.3562 22.0106C26.5477 24.1165 20.7214 14.3161 18.7006 6.56528" stroke="#FF6868" stroke-width="2" stroke-linecap="round"/>
-    <path d="M16.4375 12.0367C10.039 16.0692 10.1946 16.4299 9.98884 16.9458C9.78309 17.4618 11.8558 21.2737 12.167 21.995M22.1388 23.2671C21.2104 24.0937 15.3288 28.3316 14.6563 27.7655C13.9838 27.1995 12.4781 22.7163 12.167 21.995M12.167 21.995C12.8462 21.4637 15.7025 18.6738 18.7712 17.4465" stroke="#FF6868" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M18.852 33.6789C19.5704 33.9667 24.7195 36.6099 27.6393 37.17C30.5592 37.7301 25.2055 33.5134 22.5605 27.3821" stroke="#FF6868" stroke-width="2" stroke-linecap="round"/>
-    <path d="M35.7029 1.25793C38.6713 7.02487 39.7399 10.1727 40.1697 15.5841" stroke="#FF6868" stroke-width="2" stroke-linecap="round"/>
-    <path d="M40.3267 18.7041C40.1435 18.7791 40.1645 18.8215 40.3156 18.897" stroke="#FF6868" stroke-width="2" stroke-linecap="round"/>
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="5" viewBox="0 0 18 5" fill="none">
+      <path d="M0.894979 4.19002H17.015V0.017788H0.894979V4.19002Z" fill="#010101" />
     </svg>
   )
 }
-export const IconLogoYellow= ({ size = 40, color = '#DDF247' }) => {
+export const IconPlus = ({ size = 40, color = '#DDF247' }) => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" fill="none">
+      <path d="M8.19182 0.862965V8.87555H0.653352V13.19H8.19182V21.2026H12.8856V13.19H20.4715V8.87555H12.8856V0.862965H8.19182Z" fill="#DDF247" />
+    </svg>
+  )
+}
+export const IconNew = ({ size = 40, color = '#DDF247' }) => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="42" height="39" viewBox="0 0 42 39" fill="none">
+      <path d="M6.89411 33.5827C3.70558 28.1965 2.19492 20.7227 1.88381 20.0014C1.5727 19.2801 10.0894 28.1018 10.8369 29.8344C11.5844 31.5669 8.05763 19.0987 6.05889 14.7869" stroke="#FF6868" stroke-width="2" stroke-linecap="round" />
+      <path d="M32.0178 4.06503C32.4169 8.79932 31.8373 20.4287 31.3463 19.8359C30.8553 19.2432 26.2616 6.75389 26.3065 7.53792C26.3515 8.32195 26.1647 19.9047 26.3562 22.0106C26.5477 24.1165 20.7214 14.3161 18.7006 6.56528" stroke="#FF6868" stroke-width="2" stroke-linecap="round" />
+      <path d="M16.4375 12.0367C10.039 16.0692 10.1946 16.4299 9.98884 16.9458C9.78309 17.4618 11.8558 21.2737 12.167 21.995M22.1388 23.2671C21.2104 24.0937 15.3288 28.3316 14.6563 27.7655C13.9838 27.1995 12.4781 22.7163 12.167 21.995M12.167 21.995C12.8462 21.4637 15.7025 18.6738 18.7712 17.4465" stroke="#FF6868" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M18.852 33.6789C19.5704 33.9667 24.7195 36.6099 27.6393 37.17C30.5592 37.7301 25.2055 33.5134 22.5605 27.3821" stroke="#FF6868" stroke-width="2" stroke-linecap="round" />
+      <path d="M35.7029 1.25793C38.6713 7.02487 39.7399 10.1727 40.1697 15.5841" stroke="#FF6868" stroke-width="2" stroke-linecap="round" />
+      <path d="M40.3267 18.7041C40.1435 18.7791 40.1645 18.8215 40.3156 18.897" stroke="#FF6868" stroke-width="2" stroke-linecap="round" />
+    </svg>
+  )
+}
+export const IconLogoYellow = ({ size = 40, color = '#DDF247' }) => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-    <g clip-path="url(#clip0_981_721)">
-    <g clip-path="url(#clip1_981_721)">
-    <rect width="32" height="32" rx="16" fill="#DDF247"/>
-    <path d="M21.3333 16.0935L11.4399 11.4802V12.8135L19.8133 16.7602L11.4399 20.6802V22.0402L21.3333 17.4268V16.0935Z" fill="#010101"/>
-    </g>
-    </g>
-    <defs>
-    <clipPath id="clip0_981_721">
-    <rect width="32" height="32" fill="white"/>
-    </clipPath>
-    <clipPath id="clip1_981_721">
-    <rect width="32" height="32" rx="16" fill="white"/>
-    </clipPath>
-    </defs>
+      <g clip-path="url(#clip0_981_721)">
+        <g clip-path="url(#clip1_981_721)">
+          <rect width="32" height="32" rx="16" fill="#DDF247" />
+          <path d="M21.3333 16.0935L11.4399 11.4802V12.8135L19.8133 16.7602L11.4399 20.6802V22.0402L21.3333 17.4268V16.0935Z" fill="#010101" />
+        </g>
+      </g>
+      <defs>
+        <clipPath id="clip0_981_721">
+          <rect width="32" height="32" fill="white" />
+        </clipPath>
+        <clipPath id="clip1_981_721">
+          <rect width="32" height="32" rx="16" fill="white" />
+        </clipPath>
+      </defs>
     </svg>
   )
 }

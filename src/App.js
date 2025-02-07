@@ -8,6 +8,7 @@ import FourthSection from './Components/FourthSection/FourthSection';
 import FifthSection from './Components/FifthSection/FifthSection';
 import SixthSection from './Components/SixthSection/SixthSection';
 import Footer from './Components/Footer/Footer';
+import SeventhSection from './Components/SeventhSection/SeventhSection';
 
 function App() {
   const [language, setLanguage] = useState("en");
@@ -22,6 +23,7 @@ function App() {
       <FourthSection language={language} />
       <FifthSection language={language} />
       <SixthSection language={language} />
+      <SeventhSection language={language} />
       <Footer language={language} />
     </div>
   );

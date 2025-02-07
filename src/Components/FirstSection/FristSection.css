@@ -81,10 +81,14 @@
   align-items: center;
   white-space: nowrap;
   margin-right: 32px;
-
   position: relative;
   font-size: 22px;
-  line-height: 26.5px;
+  font-weight: 250;
+  line-height: 26.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
 }
 
 .header_menu .menu_wrapper .list_menu .list_menu_item:not(:first-child):before {

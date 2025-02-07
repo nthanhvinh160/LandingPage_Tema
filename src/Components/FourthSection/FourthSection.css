@@ -50,7 +50,7 @@
 }
 
 .fourth_section .fourth_section_right .fourth_section_left_content h5 {
-  
+
   font-size: 48px;
   font-weight: 700;
   line-height: 57.6px;
@@ -59,7 +59,7 @@
 }
 
 .fourth_section .fourth_section_right .fourth_section_left_content p {
-  
+
   font-size: 22px;
   font-weight: 250;
   line-height: 26.4px;
@@ -154,6 +154,23 @@
 }
 
 @media (max-width: 650px) {}
+
+@media (max-width: 520px) {
+  .fourth_section .fourth_section_right .fourth_section_left_content h5 {
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40.8px;
+    letter-spacing: 0.25px;
+  }
+
+  .fourth_section .fourth_section_right .fourth_section_left_content p {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 22px;
+    letter-spacing: 0.10000000149011612px;
+
+  }
+}
 
 @media (max-width: 500px) {
   .fourth_section .btn {
