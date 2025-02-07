@@ -110,7 +110,7 @@
   font-weight: 700;
   line-height: 40.8px;
   margin-bottom: 14px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .third_section_right .slider .card_info .detail_info {
@@ -166,7 +166,17 @@
   content: '' !important;
 }
 
+.slick-track {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch;
 
+}
+
+.slick-initialized .slick-slide {
+  flex-grow: 1;
+  height: 100%;
+}
 
 
 @media (max-width: 1400px) {}
