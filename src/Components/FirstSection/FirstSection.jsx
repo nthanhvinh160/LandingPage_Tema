@@ -97,7 +97,7 @@ const FirstSection = ({ language, setLanguage, isActiveMenuMobile, setIsActiveMe
               </div>
             </div>
             <div className='main_content'>
-              <h1> {translations[language].improveSkills} <span id='icon_close_code'> {'</>'}</span> {translations[language].studyWithCoding} </h1>
+              <h1> {translations[language].improveSkills} <span className='wrapper_code_icon'> <span id='icon_close_code'>{'</>'}</span>  </span> {translations[language].studyWithCoding} </h1>
             </div>
 
             <div className='content_wrapper'>

@@ -27,6 +27,12 @@
   line-height: 75px;
 }
 
+.wrapper_code_icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
 .first_section .left_side .content_wrapper {
   margin-top: 74px;
   margin-bottom: 111px;
@@ -36,6 +42,8 @@
 .first_section .left_side .content_detail {
   width: 70%;
 }
+
+
 
 .first_section .left_side .content_detail span {
   font-weight: 400;
