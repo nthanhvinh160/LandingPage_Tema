@@ -162,20 +162,23 @@
   rotate: 180deg;
 }
 
+
 #icon_close_code {
-  min-width: 29px;
+  /* display: inline-block; */
   background-color: #000;
-  color: #FFF;
   border-radius: 100%;
-  padding: 6px 3px;
+  color: #fff;
   font-size: 13px;
-  font-weight: bold;
-  vertical-align: middle;
-  /* width: 30px;
-  height: 20px;
+  font-weight: 700;
   display: flex;
+  min-width: 30px;
+  min-height: 29px;
+  max-width: 29px;
   align-items: center;
-  justify-content: center; */
+  max-height: 29px;
+  justify-content: center;
+  padding: 3px 3px;
+  vertical-align: middle;
 }
 
 .list_dropdown_language {}
