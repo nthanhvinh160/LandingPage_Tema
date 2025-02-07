@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './FristSection.css'
 import { IconArrowDropDown, IconArrowRight, IconBackToTop, IconBtn, IconLogo, IconMenu, IconRaditoRed } from '../Icon'
 import { translations } from '../../language';
@@ -11,6 +11,7 @@ import imgTamGiac from '../../assets/images/icon-park_caution.png'
 const FirstSection = ({ language, setLanguage, isActiveMenuMobile, setIsActiveMenuMobile }) => {
   const [isOpenDrop, setIsOpenDrop] = useState(false);
   const [showScrollToTop, setShowScrollToTop] = useState(false);
+  const dropdownRef = useRef(null);
   const handleChangeLanguage = (e) => {
     setLanguage(e);
   };
@@ -31,6 +32,26 @@ const FirstSection = ({ language, setLanguage, isActiveMenuMobile, setIsActiveMe
     // Cleanup khi component unmount
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpenDrop(false);
+      }
+    };
+
+    if (isOpenDrop) {
+      document.addEventListener('mousedown', handleClickOutside);
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isOpenDrop]);
+
   return (
     <>
       <div>
@@ -55,7 +76,7 @@ const FirstSection = ({ language, setLanguage, isActiveMenuMobile, setIsActiveMe
                   <li className="list_menu_item">{translations[language].tutorials}</li>
                   <li className="list_menu_item">{translations[language].caseStudies}</li>
                   <li className="list_menu_item">{translations[language].resources}</li>
-                  <div className='language_dropdown' onClick={() => setIsOpenDrop(!isOpenDrop)}>
+                  <div ref={dropdownRef} className='language_dropdown' onClick={() => setIsOpenDrop(!isOpenDrop)}>
                     <div className='language_flag'>
                       <img src={language === 'vi' ? VNFlag : englandFlag} />
                     </div>
